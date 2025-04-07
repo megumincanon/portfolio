@@ -7,10 +7,6 @@ body {
     color: #fff;
     display: flex;
 }
-body {
-  font-family: Arial, sans-serif; /* Arialがなければ、sans-serifという一般的なゴシック体で表示 */
-}
-
 /* サイドメニュー */
 .sidebar {
     width: 250px;
