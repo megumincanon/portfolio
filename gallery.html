@@ -13,7 +13,7 @@
       display: flex;
     }
 
-    /* サイドメニュー */
+    /* サイドバー */
     .sidebar {
       width: 200px;
       background-color: #111;
@@ -37,12 +37,16 @@
       color: #fff;
     }
 
-    /* メインコンテンツ */
+    /* メイン */
     .content {
       margin-left: 200px;
       padding: 40px;
       flex: 1;
       text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 30px;
     }
 
     /* スライドショー */
@@ -71,6 +75,7 @@
   <div class="content">
     <h1>Gallery</h1>
     <div class="slideshow-container">
+      <!-- 好きな画像URLに置き換えてOK -->
       <img class="slide" src="https://placekitten.com/800/500" style="display:block;">
       <img class="slide" src="https://picsum.photos/800/500?random=1">
       <img class="slide" src="https://picsum.photos/800/500?random=2">
