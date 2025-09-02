@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>スライドショー</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>スライドショー</h1>
+  <div class="slideshow-container">
+    <img src="https://example.com/image1.jpg" class="slide" style="display:block;">
+    <img src="https://example.com/image2.jpg" class="slide">
+    <img src="https://example.com/image3.jpg" class="slide">
+  </div>
+
+  <script>
+    let slideIndex = 0;
+    const slides = document.querySelectorAll(".slide");
+
+    function showSlides() {
+      slides.forEach(slide => slide.style.display = "none");
+      slideIndex++;
+      if (slideIndex > slides.length) slideIndex = 1;
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 3000); // 3秒ごとに切り替え
+    }
+
+    showSlides();
+  </script>
+</body>
+</html>
