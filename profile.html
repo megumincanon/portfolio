@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+    }
+    .sidebar {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #000;
+      padding-top: 20px;
+    }
+    .sidebar a {
+      display: block;
+      color: white;
+      padding: 12px;
+      text-decoration: none;
+    }
+    .sidebar a:hover {
+      background-color: #575757;
+    }
+    .content {
+      margin-left: 220px;
+      padding: 20px;
+    }
+    .profile {
+      max-width: 800px;
+      margin: auto;
+    }
+    .profile-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .profile-header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+    }
+    .profile-header h2 {
+      margin: 15px 0 5px;
+      font-size: 26px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section h3 {
+      font-size: 22px;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #444;
+      padding-bottom: 5px;
+    }
+    .equipment-list,
+    .favorites-list {
+      line-height: 1.8;
+    }
+    .equipment-list ul,
+    .favorites-list ul {
+      list-style: none;
+      padding: 0;
+    }
+    .equipment-list li,
+    .favorites-list li {
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="profile.html">Profile</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="content">
+    <div class="profile">
+      <!-- 自己紹介 -->
+      <div class="profile-header">
+        <img src="" alt="プロフィール写真">
+        <h2>めぐみん</h2>
+        <p>
+          北海道を拠点に活動しているカメラマンです。<br>
+          主にコスプレ撮影を中心に活動中。<br>
+          写真を通じて「そこにいる世界観」を表現することを目指しています。
+        </p>
+      </div>
+
+      <!-- 使用機材 -->
+      <div class="section equipment-list">
+        <h3>✦ 所持機材 ✦</h3>
+        <ul>
+          <li><b>● 本体 ●</b><br>Canon EOS Kiss M</li>
+          <li><b>● レンズ ●</b><br>15-45mm F3.5-6.3（標準）<br>☆55-200mm F4.5-6.3（望遠）<br>☆EF-M22mm F2 STM（単焦点）</li>
+          <li><b>● ストロボ ●</b><br>Canon 470EX-AI</li>
+          <li><b>● その他 ●</b><br>LEDライト（小さめ）</li>
+        </ul>
+      </div>
+
+      <!-- 推し -->
+      <div class="section favorites-list">
+        <h3>✦ 好き ✦</h3>
+        <ul>
+          <li><b>ラ！シリーズ</b>: ♡にこにー / ♡ヨハネ / ♡ダイヤさん</li>
+          <li><b>デレマス</b>: ♡小梅ちゃん / ♡あきらちゃん / ♡仁奈ちゃん / ♡蘭子ちゃん</li>
+          <li><b>原神</b>: ♡フィッシュル / クレーちゃん / リネ / パイモン / 蛍ちゃん</li>
+          <li><b>DC</b>: コ / 赤 / 平</li>
+          <li><b>🏴‍☠️</b>: ♡👒🟥 / ♡⚔️🟩 / ♡💐🟪 / 💗👻🧸</li>
+          <li><b>🌈🕒</b>: ♡💯🦂 / ♡🥨🍚</li>
+          <li><b>ホロ</b>: 🏴‍☠️</li>
+          <li><b>[他界隈]</b>: K-POP (SKZ, TWICE, NiziU) / Tobe Number_i / お笑い (NONSTYLE, 東京03)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
